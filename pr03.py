@@ -75,11 +75,11 @@ class Keyboard(Harmonica, Banjo, Harp):
 
 ###
 
-# Виведе "Бубон", тому що перший клас який наслідує Strike є Trumpet
+# Виведе "Бубон", тому що Trumpet є першим класом від якого наслідується Strike
 print(Strike().name())
 
-# Виведе "Тромбон", тому що перший клас який наслідує Percussion є Tambourine
+# Виведе "Тромбон", тому що Tambourine є першим класом від якого наслідується Percussion
 print(Percussion().name())
 
-# Виведе "Гармоніка", тому що перший клас який наслідує Keyboard є Harmonica
+# Виведе "Гармоніка", тому що Harmonica є першим класом від якого наслідується Keyboard
 print(Keyboard().name())
